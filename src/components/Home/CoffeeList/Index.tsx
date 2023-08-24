@@ -5,8 +5,6 @@ import { coffees } from "../../../data/coffees"
 
 
 export function CoffeList() {
-
-
   return (
     <CoffeeListContainer>
       <Title>Nossos cafés</Title>
