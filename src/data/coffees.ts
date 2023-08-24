@@ -1,17 +1,17 @@
-import coffee1 from '../assets/coffee1.png'
-import coffee2 from '../assets/coffee2.png'
-import coffee3 from '../assets/coffee3.png'
-import coffee4 from '../assets/coffee4.png'
-import coffee5 from '../assets/coffee5.png'
-import coffee6 from '../assets/coffee6.png'
-import coffee7 from '../assets/coffee7.png'
-import coffee8 from '../assets/coffee8.png'
-import coffee9 from '../assets/coffee9.png'
-import coffee10 from '../assets/coffee10.png'
-import coffee11 from '../assets/coffee11.png'
-import coffee12 from '../assets/coffee12.png'
-import coffee13 from '../assets/coffee13.png'
-import coffee14 from '../assets/coffee14.png'
+import coffee1 from '../../src/assets/coffee1.png'
+import coffee2 from '../../src/assets/coffee2.png'
+import coffee3 from '../../src/assets/coffee3.png'
+import coffee4 from '../../src/assets/coffee4.png'
+import coffee5 from '../../src/assets/coffee5.png'
+import coffee6 from '../../src/assets/coffee6.png'
+import coffee7 from '../../src/assets/coffee7.png'
+import coffee8 from '../../src/assets/coffee8.png'
+import coffee9 from '../../src/assets/coffee9.png'
+import coffee10 from '../../src/assets/coffee10.png'
+import coffee11 from '../../src/assets/coffee11.png'
+import coffee12 from '../../src/assets/coffee12.png'
+import coffee13 from '../../src/assets/coffee13.png'
+import coffee14 from '../../src/assets/coffee14.png'
 
 export const coffees = [
   { id: 1, img: coffee1, tags: [{ tag: "TRADICIONAL" }], title: "Expresso Tradicional", description: "O tradicional café feito com água quente e grãos moídos", price: 9.99 },
@@ -27,7 +27,7 @@ export const coffees = [
   { id: 11, img: coffee11, tags: [{ tag: "ESPECIAL" }, { tag: "ALCOÓLICO" }, { tag: "GELADO" }], title: "Cubano", description: "Drink gelado de café expresso com rum, creme de leite e hortelã", price: 9.99 },
   { id: 12, img: coffee12, tags: [{ tag: "ESPECIAL" }], title: "Havaiano", description: "Bebida adocicada preparada com café e leite de coco", price: 9.99 },
   { id: 13, img: coffee13, tags: [{ tag: "ESPECIAL" }], title: "Árabe", description: "Bebida preparada com grãos de café árabe e especiarias", price: 9.99 },
-  { id: 14, img: coffee14, tags: [{ tag: "EXPECIAL" }, { tag: "GELADO" }], title: "Irlandês", description: "Bebida a base de café, uísque irlandês, açúcar e chantilly", price: 9.99 },
+  { id: 14, img: coffee14, tags: [{ tag: "EXPECIAL" }, { tag: "GELADO" }], title: "Irlandês", description: "Bebida a base de café, uísque irlandês, açúcar e chantilly", price: 9.99 }
 ];
 
 
