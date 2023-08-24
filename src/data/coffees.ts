@@ -27,7 +27,7 @@ export const coffees = [
   { id: 11, img: coffee11, tags: [{ tag: "ESPECIAL" }, { tag: "ALCOÓLICO" }, { tag: "GELADO" }], title: "Cubano", description: "Drink gelado de café expresso com rum, creme de leite e hortelã", price: 9.99 },
   { id: 12, img: coffee12, tags: [{ tag: "ESPECIAL" }], title: "Havaiano", description: "Bebida adocicada preparada com café e leite de coco", price: 9.99 },
   { id: 13, img: coffee13, tags: [{ tag: "ESPECIAL" }], title: "Árabe", description: "Bebida preparada com grãos de café árabe e especiarias", price: 9.99 },
-  { id: 14, img: coffee14, tags: [{ tag: "EXPECIAL" }, { tag: "GELADO" }], title: "Irlandês", description: "Bebida a base de café, uísque irlandês, açúcar e chantilly", price: 9.99 }
+  { id: 14, img: coffee14, tags: [{ tag: "EXPECIAL" }, { tag: "GELADO" }], title: "Irlandês", description: "Bebida a base de café, uísque irlandês, açúcar e chantilly", price: 9.99 },
 ];
 
 
