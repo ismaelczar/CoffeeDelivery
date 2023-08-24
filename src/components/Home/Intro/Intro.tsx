@@ -1,5 +1,5 @@
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react'
-import Artboard from '../../../assets/Artboard.png'
+import Artboard from '/Artboard.png'
 import { IconCart, IconCoffee, IconPackage, IconTimer, IntroContainer, IntroText, Items, ItemsContainer, Subtittle, Tittle } from './styled'
 
 

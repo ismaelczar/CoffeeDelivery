@@ -1,4 +1,4 @@
-import Logo from '../../../assets/Logo.svg'
+import Logo from '/Logo.svg'
 import { MapPin, ShoppingCart } from 'phosphor-react'
 import { Actions, Cart, Locale, Navigation } from './styled'
 

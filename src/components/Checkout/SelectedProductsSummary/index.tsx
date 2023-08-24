@@ -1,6 +1,6 @@
 import MyContext from "../../../hooks/cuscomContextHook";
 import PickedCoffeeCard from "../PickedCoffeeCard";
-import Logo from '../../../assets/Logo.svg'
+import Logo from '/Logo.svg'
 
 import {
   PaymentDetailsContainer,
