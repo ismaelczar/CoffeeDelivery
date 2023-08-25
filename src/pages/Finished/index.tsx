@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import illustration from '/illustration.svg'
+import illustration from '/Illustration.svg'
 import { DeliveryContext } from '../../context/DeliveryContext'
 import { DetailsContainer, ContainerFinished, DeliveryDataContainer, Items, IconMap, IconTimer, IconDollar } from './styled'
 import { CurrencyDollar, MapPin, Timer } from 'phosphor-react'

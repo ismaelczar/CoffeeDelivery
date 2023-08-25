@@ -29,6 +29,10 @@ export const DetailsContainer = styled.div`
   justify-content: center;
   gap: 6.375rem;
 
+  img {
+    margin-top: 2.5rem;
+  }
+
 `
 
 export const DeliveryDataContainer = styled.div`
