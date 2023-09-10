@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 
 interface CoffeeProps {
   id: number
@@ -29,7 +29,18 @@ interface ContextProps {
 const CoffeesContext = createContext({} as ContextProps);
 
 const MycontextCart: React.FC<CoffeesContextProviderProps> = ({ children }) => {
-  const [coffeeList, setCoffeeList] = useState<CoffeeProps[]>([]);
+
+  const storedStateAsJSON = localStorage.getItem('@coffee-delivery:coffee-state-1.0.0');
+  const storedStateArray = JSON.parse(storedStateAsJSON!)
+
+  const [coffeeList, setCoffeeList] = useState<CoffeeProps[]>(storedStateAsJSON ? storedStateArray : []);
+
+  useEffect(() => {
+
+    const coffeeJSON = JSON.stringify(coffeeList)
+    localStorage.setItem('@coffee-delivery:coffee-state-1.0.0', coffeeJSON)
+
+  }, [coffeeList])
 
   function handleUpdateCoffeesList(updatedCoffee: CoffeeProps) {
     const coffeeIdExisting = coffeeList.findIndex(coffee => coffee.id === updatedCoffee.id)
@@ -47,7 +58,6 @@ const MycontextCart: React.FC<CoffeesContextProviderProps> = ({ children }) => {
       setCoffeeList(prevCoffee => [...prevCoffee, updatedCoffee])
     }
   }
-
 
   function handleDecrementCoffeeList(decrementAmountCoffee: CoffeeItem) {
     const coffeeIndex = coffeeList.findIndex(coffee => coffee.id === decrementAmountCoffee.id);
